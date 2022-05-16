@@ -230,7 +230,7 @@ if __name__ == "__main__":
     ###################Final Project Starts###############
 
     #   Creating header to display results    
-#    header = ["ID", "first name", "last item", "GPA"]
+header = ["ID", "first name", "last item", "GPA"]
     
     #   Displaying Inventory area to screen
 print("\n\n===========================================")
@@ -402,6 +402,20 @@ while True:
 
 
 
+
+
+        
+        
+        
+        
+        
+        
+        
+        
+    
+
+
+    
 
 
         
