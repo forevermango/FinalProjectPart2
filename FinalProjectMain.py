@@ -123,11 +123,11 @@ if __name__ == "__main__":
     #   sorting alphabetically by student last name
     #   lambda was used in project 1
     #saving the sorted data on the basis of last_name into the full_roster_rows variable
-    full_roster = sorted(students_dictionary.items(), key = lambda x: x[1]['last_name'])
+#    full_roster = sorted(students_dictionary.items(), key = lambda x: x[1]['last_name'])
     full_roster_rows = []
     #   getting required attributes
     # getting the full_roster data and sending it to FinalProjectOutput.py then creating a new csv file named as out_filename1
-    for row in full_roster:
+    """for row in full_roster:
         student_ID = row[0]
         major = row[1]['major']
         first_name = row[1]['first_name']
@@ -135,7 +135,7 @@ if __name__ == "__main__":
         gpa = row[1]['gpa']
         graduation_date = row[1]['graduation_date']
         disciplinary_action = row[1]['disciplinary_action']
-        full_roster_rows.append([student_ID, major, first_name, last_name, gpa, graduation_date, disciplinary_action])
+        full_roster_rows.append([student_ID, major, first_name, last_name, gpa, graduation_date, disciplinary_action])"""
     #   writing to FullRoster.csv 
     FinalProjectOutput.write_csv(out_filename1, full_roster_rows)
     #   (b) Creating List per major
@@ -404,8 +404,6 @@ while True:
 
 
 
-
-
         
         
         
@@ -419,4 +417,4 @@ while True:
 
     
 
-    
+
